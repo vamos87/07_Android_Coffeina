@@ -5,7 +5,7 @@ public class Drink {
     private String description;
     private int imageResourceId;
 
-    public static final Drink[] deinks = {
+    public static final Drink[] drinks = {
             new Drink("latte","espresso z pianką",R.drawable.latte),
             new Drink("espresso","mala czarna",R.drawable.espresso),
             new Drink("cappuccino","spienione mleko",R.drawable.cappuccino),

@@ -19,12 +19,12 @@ public class TopLevelActivity extends Activity {
             @Override
             public void onItemClick(AdapterView<?> listView, View v, int position, long id) {
                 if (position ==0) {
-                    Intent intent = new Intent(this,DrinkCategoryActivity.class);
+                    Intent intent = new Intent(TopLevelActivity.this,DrinkCategoryActivity.class);
                     startActivity(intent);
                 }
             }
         };
-        ListView listView = (ListView) findViewById(R.id.list_options);
+        ListView listView = (ListView) findViewById(R.id.list_drink);
         listView.setOnItemClickListener(itemClickListener);
     }
 }
